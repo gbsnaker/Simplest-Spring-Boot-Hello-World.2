@@ -82,7 +82,7 @@ class DemoStack(Stack):
                                                    task_image_options=ecsp.ApplicationLoadBalancedTaskImageOptions(
                                                        # image=ecs.ContainerImage.from_asset("server/")#
                                                        image=ecs.ContainerImage.from_registry(
-                                                           "gbsnaker/Simplest-Spring-Boot-Hello-World"),
+                                                           "gbsnaker/simplest-spring-boot-hello-world"),
                                                        log_driver=ecs.LogDrivers.aws_logs(
                                                            stream_prefix="CICDFargateService",
                                                            log_group=log_group)
