@@ -16,7 +16,7 @@ RUN mvn -B clean package -DskipTests
 
 #FROM openjdk:8
 #FROM openjdk:8-jre-alpine
-FROM tomcat
+FROM tomcat:8.5.42-jdk8-openjdk
 
 #ENV JAVA_OPTS=-javaagent:/usr/skywalking/agent/skywalking-agent.jar
 #ADD target/k8s.jar /opt/app.jar
