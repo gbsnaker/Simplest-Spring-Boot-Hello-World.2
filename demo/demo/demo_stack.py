@@ -98,7 +98,7 @@ class DemoStack(Stack):
                                    metric_namespace="MYAPP",
                                    metric_name="myinfolog",
                                    # filter_pattern=aws_logs.FilterPattern.any_term("INFO"),
-                                   filter_pattern=aws_logs.FilterPattern.any_term("main"),
+                                   filter_pattern=aws_logs.FilterPattern.any_term("ERROR"),
                                    metric_value="1"
                                    )
 
