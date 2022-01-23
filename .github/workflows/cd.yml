@@ -56,5 +56,5 @@ jobs:
       working-directory: demo
 
     - name: CDK Deploy
-      run: cdk deploy
+      run: cdk deploy --require-approval never
       working-directory: demo
