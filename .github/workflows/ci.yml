@@ -1,7 +1,7 @@
 # 修改hostname
 # review test 
 # branch f1 
-name: GitHub Actions before 
+name: GitHub Actions for ci  
 
 on:
   #pull_request:
