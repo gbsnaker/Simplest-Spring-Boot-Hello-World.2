@@ -81,6 +81,7 @@ class DemoStack(Stack):
                                                    desired_count=2,
                                                    task_image_options=ecsp.ApplicationLoadBalancedTaskImageOptions(
                                                        # image=ecs.ContainerImage.from_asset("server/")#
+                                                       container_port=8080,
                                                        image=ecs.ContainerImage.from_registry(
                                                            "gbsnaker/simplest-spring-boot-hello-world"),
                                                        log_driver=ecs.LogDrivers.aws_logs(
