@@ -76,7 +76,7 @@ json upload to https://foo.com/bar
 
 #### 框架设计图
 
-![image-20220124102758298](/Users/taotao/Library/Application Support/typora-user-images/image-20220124102758298.png)
+![cdk](cdk.png)
 
 
 #### 操作步骤
